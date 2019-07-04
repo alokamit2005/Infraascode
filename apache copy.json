@@ -139,7 +139,7 @@
   },
   "Resources": {
     "VPC": {
-      "Type": "AWS::EC2::VPC::vpc-d281e5a8",
+      "Type": "AWS::EC2::VPC",
       "Properties": {
         "EnableDnsSupport": "true",
         "EnableDnsHostnames": "true",
@@ -148,7 +148,7 @@
 
     },
     "PublicSubnet": {
-      "Type": "AWS::EC2::Subnet::subnet-6b494464",
+      "Type": "AWS::EC2::Subnet",
       "Properties": {
         "CidrBlock": "10.0.0.0/24",
         "VpcId": {
