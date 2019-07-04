@@ -27,7 +27,7 @@ Parameters:
       r3.8xlarge, i2.xlarge, i2.2xlarge, i2.4xlarge, i2.8xlarge]
     ConstraintDescription: Please choose a valid instance type.
 Mappings:
-  # Hard values for the subnet masks. These masks def ine
+  # Hard values for the subnet masks. These masks define
   # the range of internal IP addresses that can be assigned.
   # The VPC can have all IP's from 10.0.0.0 to 10.0.255.255
   # There are two subnets which cover the ranges:
